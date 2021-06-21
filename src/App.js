@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header/index.jsx";
+import "./App.css";
+import CategoryPC from "./components/Category-PC/index.jsx";
+import CategoryMobile from './components/Category-Mobile/index.jsx'
+import Member from "./components/Member/index.jsx";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <CategoryPC />
+      <CategoryMobile />
+      <Member />
     </div>
   );
 }

@@ -1,0 +1,54 @@
+.header-wrapper {
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.header-top {
+  color: white;
+  font-size: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-top-btns img {
+  margin: 0 10px;
+}
+
+.header-top-btns img:last-of-type {
+  margin-bottom: 3px;
+}
+
+.header-form {
+  position: relative;
+  margin: 10px 10px 0 10px;
+}
+
+.header-form input {
+  width: 100%;
+  height: 40px;
+  outline:none;
+  font-size:18px
+}
+
+.header-form img {
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 95%;
+}
+
+.header-search-result {
+  background-color: white;
+  list-style-type: none;
+  margin: 0 10px;
+}
+
+.header-search-result li {
+  margin-left: -20px;
+  position: relative;
+}
+
+.header-search-result li:hover {
+  cursor: pointer;
+}
