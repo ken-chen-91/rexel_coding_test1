@@ -3,7 +3,7 @@ body {
 }
 
 .bottom {
-  background-color: lightgray;
+  background-color: #EEEEEE;
   margin-top: -30px;
   padding: 0 0 10px 0;
 }
@@ -14,17 +14,21 @@ body {
     grid-template-columns: 50% 50%;
   }
 
-  .deals-wrapper {
+  .deal-container {
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 2;
+
+
   }
 
-  .member-wrapper {
+  .member-container {
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 3;
   }
+
+  
 }

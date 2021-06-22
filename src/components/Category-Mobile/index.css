@@ -21,7 +21,7 @@
 .category-mobile-item {
   display: grid;
   grid-template-columns: 30px auto 40px;
-  border-top: 1px gray solid;
+  border-top: 1px #C9C9C9 solid;
   padding: 15px;
   margin-top: -1px;
   margin: 0 20px 0 10px;

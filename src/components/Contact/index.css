@@ -1,0 +1,55 @@
+.contact-wrapper {
+  background-color: gray;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.contact-title {
+  color: white;
+}
+
+.contact-title div:first-of-type {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-top:10px;
+}
+
+.contact-title div:last-of-type {
+  font-size: .8em;
+
+}
+
+.contact-time {
+  color: lightgray;
+  padding: 20px;
+}
+
+.contact-time h2{
+  font-size:18px;
+  
+}
+.contact-help {
+  background-color: white;
+  border-radius: 20px;
+  width: 300px;
+  margin: auto;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact-help-caption {
+  padding-left: 10px;
+  font-size: 1.2em;
+}
+
+.contact-options {
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 30px 10px 0 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

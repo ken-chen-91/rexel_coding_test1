@@ -1,0 +1,12 @@
+.deal-container {
+  /* display: flex;
+  justify-content: center; */
+  background-color: #EEEEEE;
+  margin: 20px 10px 10px 10px;
+}
+
+.deal-img {
+  width: 100%;
+  max-height: 185px;
+  min-height:185px;
+}
