@@ -20,7 +20,6 @@ const Header = () => {
       const response = await axios.get(
         "http://dummy.restapiexample.com/api/v1/employees"
       );
-      console.log(response.data.data);
       setUsers(response.data.data);
     };
     loadUsers();
@@ -43,8 +42,6 @@ const Header = () => {
 
       return a.employee_name.localeCompare(b.employee_name);
     });
-
-    console.log("matches", sorted);
     setSuggestions(sorted);
     setText(text);
   };
