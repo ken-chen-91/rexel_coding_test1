@@ -18,7 +18,7 @@ const Header = () => {
   useEffect(() => {
     const loadUsers = async () => {
       const response = await axios.get(
-        "http://dummy.restapiexample.com/api/v1/employees"
+        "https://dummy.restapiexample.com/api/v1/employees"
       );
       setUsers(response.data.data);
     };
