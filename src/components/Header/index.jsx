@@ -10,39 +10,6 @@ import MenuBtn from "../../assets/ic/white/ic_menu.png";
 import SearchBtnBlack from "../../assets/ic/black/ic_search.png";
 
 const Header = () => {
-  // const [searchTerm, setSearchTerm] = useState('');
-  // const [list, setList] = useState([]);
-
-  // const onSearchChange = (e) => {
-  //   const { value } = e.target;
-  //   setSearchTerm(value);
-  //   if (value === '') {
-  //     setList([]);
-  //   } else {
-  //     axios
-  //       .get('https://dog.ceo/api/breeds/list/all')
-  //       .then((res) => {
-  //         setList(
-  //           Object.keys(res.data.message).filter((ele) =>
-  //             ele.trim().toLowerCase().includes(value.trim().toLowerCase())
-  //           )
-  //         );
-  //       })
-  //       .catch((err) => {
-  //         console.log(err);
-  //       });
-  //   }
-  // };
-
-  // const onClickList = (e) => {
-  //   const val = e.target.attributes.val.nodeValue;
-  //   setSearchTerm(val);
-  //   setList(
-  //     list.filter((ele) =>
-  //       ele.trim().toLowerCase().includes(val.trim().toLowerCase())
-  //     )
-  //   );
-  // };
 
   const [users, setUsers] = useState([]);
   const [text, setText] = useState("");
@@ -108,29 +75,6 @@ const Header = () => {
           />
           <img src={SearchBtnBlack} alt="Search Button" />
         </form>
-
-        {/* {list.length !== 0 && (
-          <ul className="header-search-result">
-            {list.map((ele) => (
-              <li className="header-search-list" onClick={onClickList} val={ele} key={ele}>
-                {ele}
-              </li>
-            ))}
-          </ul>
-        )} */}
-
-        {/* {suggestions &&
-          suggestions.map((suggestion, i) => (
-            <ul
-              className="header-search-result"
-              key={i}
-              onClick={() => {
-                onSuggestHandler(suggestion.employee_name);
-              }}
-            >
-             <li className="">{suggestion.employee_name}</li> 
-            </ul>
-          ))} */}
 
         {suggestions && (
           <ul className="header-search-result">
