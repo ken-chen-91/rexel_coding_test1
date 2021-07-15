@@ -21,7 +21,7 @@ const Header = () => {
         "https://dummy.restapiexample.com/api/v1/employees"
       );
       setUsers(response.data.data);
-    };
+    }; 
     loadUsers();
   }, []);
 
